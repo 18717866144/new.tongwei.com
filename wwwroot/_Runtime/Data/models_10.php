@@ -1,0 +1,1 @@
+<?php	return array ( 'id' => '10', 'model_name' => '视频模型', 'table_name' => 'video', 'model_type' => 'content', 'setting' => array ( 'back_list_tpl' => 'list.php', 'back_content_tpl' => 'content.php', 'is_alone' => '1', ), 'm_status' => '1', );?>

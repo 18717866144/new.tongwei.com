@@ -1,0 +1,1 @@
+<?php	return array ( 'id' => '1', 'model_name' => '文章模型', 'table_name' => 'article', 'model_type' => 'content', 'setting' => array ( 'back_list_tpl' => 'list.php', 'back_content_tpl' => 'content.php', 'form_left_nav' => '2', 'is_alone' => '2', ), 'm_status' => '1', );?>

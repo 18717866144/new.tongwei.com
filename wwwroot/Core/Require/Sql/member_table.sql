@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `$prefixmember` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `username` char(12) NOT NULL,
+  `password` char(40) NOT NULL,
+  `email` char(40) NOT NULL,
+  `m_status` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '状态1正常2禁止登录3未验证邮件',
+  `points` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT '积分',
+  `money` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT '总金钱',
+  `spent` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT '消费数',
+  `append_model` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT '会员附加模型',
+  `picture_path` char(100) NOT NULL,
+  `home_url` char(100) NOT NULL,
+  `register_time` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '注册时间',
+  `register_ip` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT '注册ip',
+  `login_num` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `login_ip` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `login_time` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='会员表' AUTO_INCREMENT=1 ;

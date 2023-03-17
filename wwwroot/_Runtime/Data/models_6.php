@@ -1,0 +1,1 @@
+<?php	return array ( 'id' => '6', 'model_name' => '会员模型', 'table_name' => 'member', 'model_type' => 'member', 'setting' => array ( 'is_main' => '1', ), 'm_status' => '1', );?>

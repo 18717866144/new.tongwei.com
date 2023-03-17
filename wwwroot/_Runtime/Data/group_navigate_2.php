@@ -1,0 +1,1 @@
+<?php	return array ( 19 => array ( 'display' => '1', 'add' => '1', 'edit' => '1', 'delete' => '1', 'sort' => '1', ), );?>

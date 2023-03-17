@@ -1,0 +1,26 @@
+<?php
+return array(
+'ALLOW_IMAGE_TYPE'=>array('jpg','gif','jpeg','png',),
+'UPLOAD_IMG_SIZE'=>'2MB',
+'EDITOR_IS_WATER'=>false,
+'WATER_POSITION'=>9,
+'WATER_TYPE'=>'text',
+'WATER_TEXT_OFFSET'=>10,
+'WATER_TEXT_ANGLE'=>10,
+'WATER_TEXT_COLOR'=>'#FFFFFF',
+'WATER_TEXT_FONT_SIZE'=>30,
+'WATER_TEXT'=>'tongwei.com',
+'WATER_TEXT_TTF'=>'elephant.ttf',
+'WATER_IMAGE'=>'water.gif',
+'ALLOW_SOFT_TYPE'=>array('zip','rar','7z','pdf','doc','docx',),
+'UPLOAD_SOFT_SIZE'=>'100MB',
+'ALLOW_MEDIA_TYPE'=>array('swf','avi','mp3','mp4',),
+'UPLOAD_MEDIA_SIZE'=>'300MB',
+'UPLOAD_OTHER_SIZE'=>'1MB',
+'UPLOAD_DIR_FORMAT'=>'Y/md',
+'OPEN_ATTACHMENT_SERVER'=>false,
+'ATTACHMENT_SERVER_TYPE'=>2,
+'ATTACHMENT_SERVER_URL'=>'',
+'UPLOAD_CHUNK_SIZE'=>1,
+);
+?>

@@ -1,0 +1,1 @@
+<?php	return array ( 'id' => '11', 'model_name' => '报刊内容', 'table_name' => 'paper_content', 'model_type' => 'paper', 'setting' => array ( 'back_list_tpl' => 'list.php', 'back_content_tpl' => 'content.php', 'is_alone' => '1', ), 'm_status' => '1', );?>

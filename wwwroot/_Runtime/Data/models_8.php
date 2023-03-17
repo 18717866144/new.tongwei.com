@@ -1,0 +1,1 @@
+<?php	return array ( 'id' => '8', 'model_name' => '专题模型', 'table_name' => 'special_content', 'model_type' => 'special', 'setting' => array ( 'is_main' => '1', ), 'm_status' => '1', );?>

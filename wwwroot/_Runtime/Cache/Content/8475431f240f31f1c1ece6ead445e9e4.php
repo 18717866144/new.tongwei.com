@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML><html><head><meta charset="utf-8"><title>成功更新首页</title></head><body>成功更新首页</body></html>
