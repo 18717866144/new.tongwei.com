@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>通威太阳能合肥基地10GW高效晶硅电池项目启动仪式 - 现场视频直播</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="keywords" content="通威太阳能合肥基地10GW高效晶硅电池项目启动仪式，现场视频直播">
+<meta name="description" content="通威太阳能合肥基地10GW高效晶硅电池项目启动仪式，现场视频直播。">
+<script type="text/javascript" src="/static/js/jquery.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/1.8.6/skins/default/index-min.css" />
+<script type="text/javascript" src="//g.alicdn.com/de/prismplayer/1.8.6/prism-min.js"></script>
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script>
+var nohashUrl = window.location.href.replace(window.location.hash, '');
+var wx_nonceStr = 'sNQVPinevM';
+var wx_title = '通威太阳能合肥基地10GW高效晶硅电池项目启动仪式 现场视频直播';
+var wx_desc = '通威太阳能合肥基地10GW高效晶硅电池项目启动仪式，现场视频直播。';
+var wx_link = nohashUrl;
+var wx_imgUrl = 'http://www.tongwei.com/20171108bg.jpg';
+var wx_timestamp = '1509935557';
+var wx_sign;
+var wx_appid = 'wx53f1624eb99f1f3d';
+
+$(function(){
+	if( is_weixn() ){
+		$.ajax({
+				url:'/index.php/index/ajaxGetWeixinSign',
+				type:"post",
+				data:{url:nohashUrl, noncestr:wx_nonceStr, timestamp:wx_timestamp},
+				success: function(data){					
+					if(data.status==1){
+						wx_sign = data.info;
+						initWeixin();
+					}
+				},
+				error:function(request){
+
+				}
+		});
+	}
+});
+
+function is_weixn(){  
+    var ua = navigator.userAgent.toLowerCase();  
+    if(ua.match(/MicroMessenger/i)=="micromessenger") {  
+        return true;  
+    } else {  
+        return false;  
+    }  
+}
+
+function initWeixin(){
+	wx.config({
+		debug: false,
+		appId: wx_appid,
+		timestamp: wx_timestamp,
+		nonceStr: wx_nonceStr,
+		signature: wx_sign,
+		jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone']
+	});
+
+	wx.ready(function(){
+		wx.onMenuShareAppMessage({
+			title: wx_title,
+			desc: wx_desc,
+			link: wx_link,
+			imgUrl: wx_imgUrl,
+			type: '',
+			dataUrl: '',
+			success: function () { 
+				
+			},
+			cancel: function () { 
+				
+			}
+		});
+		wx.onMenuShareTimeline({
+			title: wx_title,
+			link: wx_link,
+			imgUrl: wx_imgUrl,
+			success: function () { 
+				
+			},
+			cancel: function () { 
+				
+			}
+		});
+		wx.onMenuShareQQ({
+			title: wx_title,
+			desc: wx_desc,
+			link: wx_link,
+			imgUrl: wx_imgUrl,
+			success: function () { 
+			   
+			},
+			cancel: function () { 
+			   
+			}
+		});
+		wx.onMenuShareWeibo({
+			title: wx_title,
+			desc: wx_desc,
+			link: wx_link,
+			imgUrl: wx_imgUrl,
+			success: function () { 
+			
+			},
+			cancel: function () { 
+			
+			}
+		});
+		wx.onMenuShareQZone({
+			title: wx_title,
+			desc: wx_desc,
+			link: wx_link,
+			imgUrl: wx_imgUrl,
+			success: function () { 
+			   
+			},
+			cancel: function () { 
+				
+			}
+		});
+	});
+
+}
+</script>
+
+<style>
+div,body,table,p{margin: 0 auto; boder:none; padding: 0}
+ul,li,ol,dl,dt,dd{list-style: none; margin: 0; padding: 0}
+img{vertical-align: middle; border:0;}
+body{font-size: 14px; font-family:"微软雅黑";line-height: 180%;color:#2b2b2b; background-color: #C61704;}
+a{color: #049; text-decoration: none}
+a:hover{color:#f60;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.left{float:left;display:inline;}
+.right{float:right;display:inline;}
+.wrap{width: 1000px;}
+.wrap img{width: 100%;}
+.live_title{background: #aa1702; line-height: 50px; height:50px; color:#FFF;}
+.live_title a{color: #fff;}
+a.btn{background: #F4F400; padding: 3px 10px; color:#049; border-radius: 3px;}
+a.btn:hover{background: #E6FB73}
+.live_title .left{margin-left: 10px;}
+.live_title .right{margin-right: 10px;}
+.footer{text-align: center; background: #fff; padding: 10px 0px;font-size: 12px;}
+
+#d{background: rgba(0,0,0,.8); width: 100%; height: 100%;  position:fixed;top:0;left:0; text-align:center; display: none; z-index: 99998;}
+#d a{position:absolute; top:0; margin:auto auto; bottom:0; left:0; right:0; width:200px; height:80px; line-height: 40px; text-align: center; color:#fff; font-size: 20px; background: red; z-index: 99999;}
+@media only screen and (max-width: 767px){
+	div.wrap{width:100%;}
+	div.jituanlogo{display:none;}
+	div.footer{width:90%; padding:5%;}
+	div.live_title{font-size:14px;}	 eight:80px;
+}
+</style>
+</head>
+<body>
+<div class="wrap top">
+	<img src="20171108bg.jpg">
+</div>
+<div class="wrap live_title">
+	<a name="video" id="video" href="#video"></a>
+	<div class="left">直播时间：2017/11/08 10:20 - 12:00</div>
+	<div class="right"><a href="http://www.tongwei.com/a/20171108.htm" class="btn">刷新页面</a></div>
+</div>
+<div class="wrap">
+	<div class="prism-player" id="J_prismPlayer"></div>
+</div>
+
+<div class="wrap footer clearfix">
+<p><a href="/intro/index.html" title="关于通威">关于通威</a> | <a href="/agri/index.html">产业领域</a> | <a href="/news/index.html">新闻中心</a> | <a href="/culture/index.html">品牌文化</a> | <a href="http://www.tongwei.com/pinpaiguanli/" title="品牌管理">品牌管理</a> | <a href="/join/index.html">加入通威</a></p>
+<p>通威集团有限公司　蜀ICP备05002048号<br>总部地址：四川省成都市高新区天府大道中段588号通威国际中心<br>电话：028-85188888　　技术支持：<a href="http://www.tongweimedia.com" target="_blank">通威传媒</a></p></div>
+<div style="display:none;"><script src="http://s20.cnzz.com/stat.php?id=3976932&web_id=3976932" language="JavaScript"></script></div>
+<script>
+$(function(){
+	//开始直播时间
+	var startTime = "2017/11/08 10:00:00";
+	var startTime2 = new Date(startTime).getTime();
+	var $width = $(window).width();
+	var $w = $width > 1000 ? 1000 : $width;
+	var $h = $w / 16 * 9  + 48;
+	var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;//android终端
+	var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);//ios终端	
+	//var sourceUrl = (isiOS==true || isAndroid ==true ? 'http://zb.yuye.tv/20171108/StreamName.m3u8' : 'rtmp://zb.yuye.tv/20171108/StreamName');
+	var sourceUrl = 'http://zb.yuye.tv/20171108/StreamName.m3u8';
+	
+	var mp4 = ["http://www.tongwei.com/download/%E9%80%9A%E5%A8%81%E5%A4%AA%E9%98%B3%E8%83%BD%E5%B9%BF%E5%91%8A%E7%89%87.mp4","http://www.tongwei.com/uploadfile/files/2015.mp4","http://www.tongwei.com/uploadfile/files/2016qywh.mp4"];
+	var m = 1;
+	var mp4Len = mp4.length;
+	var player;
+	var liveTime;
+	var urlHash = window.location.hash;	
+	
+	setTimeout(function(){ $('#video').click(); },2000);
+		//$('.live_title .left').html('正在直播中……');
+		player = new prismplayer({
+			id: "J_prismPlayer", // 容器id
+			source: sourceUrl,  // 视频url 支持互联网可直接访问的视频地址
+			autoplay: true,//自动播放
+			width: "100%",//播放器宽度
+			height: $h+"px",//播放器高度
+			isLive: true,
+			extraInfo:{"m3u8BufferLength":"30", "liveStartTime":"2017/11/08 10:20:00", "liveStopTime":"2017/11/08 12:00:00", "liveRetry":1}
+		});
+		
+});
+</script>
+</body>
+</html>

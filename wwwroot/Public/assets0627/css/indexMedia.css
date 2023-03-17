@@ -1,0 +1,1617 @@
+@media screen and (max-width: 1680px) {
+    .tabs a+a {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .banner li .text .t1 {
+        font-size: 36px;
+    }
+
+    .banner li .text .t2 {
+        font-size: 16px;
+    }
+
+    .banner-dots {
+        top: 57%
+    }
+
+    /*.banner li a {
+        height: 550px;
+    }*/
+
+    .hotnews li .tt {
+        font-size: 16px;
+    }
+
+    .tabs a {
+        padding-bottom: 18px;
+        font-size: 20px;
+    }
+
+    .tabs a+a {
+        margin-left: 50px;
+    }
+
+    .tabs-wrap {
+        margin-left: 32px;
+    }
+
+    .tabswrap {
+        padding: 30px 0 30px 32px;
+    }
+
+    .newslist li .tt {
+        font-size: 16px;
+    }
+
+    .newslist li+li {
+        margin-top: 24px;
+    }
+
+    .newslist li .date {
+        font-size: 14px;
+    }
+
+    .person-area {
+        padding: 35px 240px 35px 32px;
+    }
+
+    .leftnews li a {
+        height: 700px;
+    }
+
+    .leftnews li .text {
+        padding: 30px 24px;
+    }
+
+    .leftnews li .title {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .leftnews li .dates {
+        margin-top: 24px;
+        font-size: 13px;
+    }
+
+    .leftnews .swiper-pages-btns {
+        right: 24px;
+        bottom: 10px;
+    }
+
+    .tabs-wrap .more-jt {
+        top: 0;
+    }
+
+    .cywrap {
+        padding: 100px 50px 80px;
+    }
+
+    .cy-infos .types span {
+        font-size: 14px;
+        min-width: 110px;
+    }
+
+    .cy-infos .types2 .item {
+        padding: 0 20px;
+    }
+
+    .cylist-swiper {
+        margin-top: 70px;
+    }
+
+    .section4 .bgimg {
+        width: 400px;
+    }
+
+    .sdgs {
+        margin-bottom: 30px;
+    }
+
+    .numlist li {
+        width: 50%;
+    }
+
+
+    .numlist.c4 li {
+        width: 50%;
+    }
+
+    .numlist.c5 {
+        justify-content: flex-start;
+    }
+
+    .numlist.c5 li {
+        width: 25%;
+    }
+
+    .totaldata .w1 {
+        width: 220px;
+    }
+
+    .totaldata .item .n0 span {
+        font-size: 20px;
+    }
+
+    .guanwrap .btn {
+        width: 50px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .guanwrap {
+        padding: 0 70px;
+    }
+
+    .green-zhizao .con span {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    .shixu-wrap .left {
+        width: 54%;
+    }
+
+    .sxlist li .tt {
+        font-size: 16px;
+    }
+
+    .sxlist li .pic {
+        width: 120px;
+        height: 90px;
+    }
+
+    .sxlist li a {
+        padding: 8px;
+    }
+
+    .bignews .tt {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+
+    .sxlist li {
+        margin-bottom: 15px;
+    }
+
+    .listpage .pages {
+        padding-top: 15px;
+    }
+
+    .bignews .pic {
+        height: 600px;
+        line-height: 600px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .totaldata {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .totaldata .item {
+        width: 33.3%;
+        flex: none;
+        padding-bottom: 15px;
+    }
+
+    .totaldata .w1 {
+        width: 33.3%;
+    }
+
+    .totaldata .w2 {
+        width: 33.3%;
+    }
+
+    .totaldata .item:nth-child(5n)::after {
+        display: block;
+    }
+
+    .totaldata .item:nth-child(3n)::after {
+        display: none;
+    }
+
+    .totaldata .item:nth-child(6) {
+        padding-left: 30px;
+    }
+
+    .totaldata .item:nth-child(4),
+    .totaldata .item:nth-child(7),
+    .totaldata .item:nth-child(10) {
+        padding-left: 0;
+    }
+
+    .totaldata.fwrap .item {
+        width: 33.3%;
+    }
+
+    .numlist.c5 {
+        justify-content: flex-start;
+    }
+
+    .numlist.c5 li {
+        width: 33.3%;
+    }
+
+    .greenbox .totaldata.br .item:nth-child(6),
+    .greenbox .totaldata.br .item:nth-child(7),
+    .greenbox .totaldata.br .item:nth-child(8),
+    .greenbox .totaldata.br .item:nth-child(9) {
+        border-bottom: 1px solid #e7e7e7;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .section3 .topinfo {
+        flex-wrap: wrap;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .section3 .topinfo .common-title {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section3 .topinfo .brief {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .section3 .topinfo .more-jt {
+        position: relative;
+        top: 0;
+        flex-shrink: 0;
+    }
+
+    .fatabs a {
+        font-size: 16px;
+        margin-left: 15px;
+        min-width: 160px;
+    }
+
+    .section4 .bgimg {
+        width: 360px;
+    }
+
+    .totaldata .item {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .totaldata.fwrap .item {
+        width: 50%;
+    }
+
+    .totaldata .item:nth-child(4),
+    .totaldata .item:nth-child(7),
+    .totaldata .item:nth-child(10) {
+        padding-left: 20px;
+    }
+
+    .totaldata .item::after {
+        display: block;
+    }
+
+    .totaldata .item:nth-child(3n)::after {
+        display: block;
+    }
+
+    .totaldata .item:nth-child(2n+1) {
+        padding-left: 0;
+    }
+
+    .totaldata .item:nth-child(2n)::after {
+        display: none;
+    }
+
+    .jglist.w3 a {
+        width: 16.66%;
+    }
+
+    .intitle-wrap {
+        display: block;
+    }
+
+    .hislist li .hiscon {
+        font-size: 14px;
+    }
+
+    .hislist li .year {
+        font-size: 18px;
+    }
+
+    .greenbox .totaldata.br .item:nth-child(9) {
+        border-bottom: 0;
+    }
+
+    .green-type2 {
+        margin: 0 -12px;
+    }
+
+    .green-type2 span {
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+        min-width: 180px;
+        margin: 0 12px 10px;
+    }
+
+    .green-zhizao .t0 {
+        height: 54px;
+        line-height: 54px;
+        font-size: 16px;
+        min-width: 180px;
+    }
+
+    .green-zhizao .con span {
+        height: 54px;
+        line-height: 52px;
+        min-width: 150px;
+    }
+
+    .special-list li .tt {
+        padding: 20px 10px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .section2 .fw {
+        display: block;
+    }
+
+    .section2 .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section2 .right {
+        flex: none;
+    }
+
+    .leftnews li .imgbg {
+        display: none;
+    }
+
+    .leftnews li .img {
+        display: block;
+    }
+
+    .leftnews li a {
+        height: auto;
+    }
+
+    .tabs-wrap {
+        margin-left: 0;
+    }
+
+    .tabswrap {
+        padding: 30px 0;
+    }
+
+    .person-area {
+        position: relative;
+    }
+
+    .cy-infos .wrap {
+        display: block;
+    }
+
+    .cy-infos .text {
+        width: 100%;
+        margin-bottom: 15px;
+        min-height: auto;
+    }
+
+    .cy-infos .tw {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .cy-infos .types {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .cywrap {
+        padding: 60px 30px;
+    }
+
+    .section4 .bgimg {
+        width: 280px;
+    }
+
+    .section4 .leftcon {
+        padding: 30px 20px;
+    }
+
+    .jiyu .tops .ren {
+        right: 20px;
+    }
+
+    .jiyu .tops .ren img {
+        height: 280px;
+    }
+
+    .jiyu .tops {
+        padding-left: 20px;
+        padding-right: 260px;
+    }
+
+    .honorlist li {
+        font-size: 15px;
+        margin-bottom: 16px;
+        width: 50%;
+    }
+
+    .green-types span {
+        min-width: 180px;
+        height: 42px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .green-list li {
+        padding: 0 10px;
+    }
+
+    .green-list {
+        margin: 0 -10px;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .banner li .text .t1 {
+        font-size: 32px;
+    }
+
+    /*.banner li a {
+        height: 480px;
+    }*/
+
+    .hotnews {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    .hotnews li .type {
+        font-size: 12px;
+    }
+
+    .section4 .leftcon .tt1 {
+        margin-bottom: 15px;
+    }
+
+    .section4 .leftcon .tt2 {
+        margin-bottom: 15px;
+    }
+
+    .section4 .bgimg {
+        display: none;
+    }
+
+    .section4 .leftcon {
+        padding: 30px 20px;
+    }
+
+    .jglist.w3 a {
+        width: 20%;
+    }
+
+    .jglist.w2 a {
+        width: 33.3%;
+    }
+
+    .jiagou .wbox {
+        padding: 20px 20px 10px;
+    }
+
+    .green-items .item {
+        padding: 0 20px;
+    }
+
+    .green-items {
+        margin: 0 -20px;
+    }
+
+    .green-list li {
+        width: 25%;
+        margin-bottom: 20px;
+    }
+
+    .green-list li .tt {
+        font-size: 14px;
+    }
+
+    .noticelist li .date {
+        font-size: 14px;
+    }
+
+    .noticelist li .tt {
+        font-size: 16px;
+    }
+
+    .noticelist li {
+        padding-left: 24px;
+        margin-bottom: 5px;
+    }
+
+    .noticelist li a {
+        padding: 20px 0;
+    }
+
+    .special-list li .tt {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    .shixu-wrap {
+        display: block;
+    }
+
+    .shixu-wrap .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .shixu-wrap .right {
+        margin-left: 0;
+    }
+
+    .bignews .pic .bgimg {
+        display: none;
+    }
+
+    .bignews .pic .img {
+        display: block;
+    }
+
+    .bignews .tt {
+        padding: 15px 10px 10px;
+    }
+
+    .bignews .pic {
+        height: auto;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .section4 .topwrap {
+        display: block;
+    }
+
+    .fatabs {
+        margin-top: 20px;
+    }
+
+    .fatabs a {
+        margin-left: 0;
+        margin-right: 15px;
+        min-width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .cylist-swiper li .tt {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .jiyu .tops .list {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .jiyu .tops .list li {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .jiyu {
+        background-size: 230px auto;
+    }
+
+    .jiyu .brief {
+        padding: 40px 40px 90px 40px;
+    }
+
+    .honorbox .img {
+        padding-top: 20px;
+    }
+
+    .hislist li .year {
+        font-size: 16px;
+        width: 150px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+    .hislist li .hiscon {
+        margin-left: 30px;
+    }
+
+    .hislist li {
+        padding: 30px 0;
+    }
+
+    .green-list li {
+        width: 33.3%;
+    }
+
+    .green-zhizao .item {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .green-zhizao .t0 {
+        font-size: 14px;
+        height: 48px;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+
+    .green-zhizao .con {
+        border-left: 0;
+    }
+
+    .green-zhizao .con span {
+        height: 48px;
+        line-height: 46px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        border: 1px solid #56bc7c;
+    }
+
+    .greentable td {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+
+    .greentable th {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+
+    .green-kangji li .tt {
+        font-size: 14px;
+    }
+
+    .green-kangji li {
+        width: 50%;
+        margin: 0 0 20px 0;
+        padding: 0 15px;
+    }
+
+    .green-kangji {
+        margin: 0 -15px;
+    }
+
+    .newsdetail .title {
+        font-size: 24px;
+    }
+
+    .special-list li {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .special-list {
+        margin: 0 -15px;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .section1 .fw {
+        flex-wrap: wrap;
+    }
+
+    .section1 .common-title {
+        width: 100%;
+    }
+
+    .hotnews {
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+        flex: none;
+        margin-top: 20px;
+    }
+
+    .hotnews::before {
+        display: none;
+    }
+
+    .section1 .fw {
+        position: relative;
+        padding-right: 150px;
+    }
+
+    .section1 .swiper-btns {
+        margin-left: 0;
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+    }
+
+    .leftnews li .dates {
+        font-size: 12px;
+    }
+
+    .leftnews li .dates span+span {
+        margin-left: 15px;
+    }
+
+    .person-area .brief {
+        font-size: 14px;
+    }
+
+    .cylist-swiper li .tt {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .cylist-swiper li .icon {
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .cylist-swiper li {
+        padding: 20px 10px 20px 16px;
+    }
+
+    .about-brief .brief {
+        font-size: 14px;
+    }
+
+    .about-brief .pic {
+        float: none;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .about-brief .pic img {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .jglist.w3 a {
+        width: 25%;
+    }
+
+    .news-center-list li .tt {
+        font-size: 18px;
+    }
+
+    .news-center-list li .con {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .banner li .text .t1 {
+        font-size: 26px;
+    }
+
+    /*.banner li a {
+        height: 400px;
+    }*/
+
+    .banner-dots {
+        top: 60%;
+    }
+
+    .leftnews li .title {
+        font-size: 16px;
+    }
+
+    .leftnews li .text {
+        padding: 20px 15px;
+    }
+
+    .leftnews .swiper-pages-btns {
+        right: 15px;
+    }
+
+    .tabs a+a {
+        margin-left: 16px;
+    }
+
+    .tabs a {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .section2 {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .cylist-swiper li .icon {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .cylist-swiper {
+        margin-top: 50px;
+    }
+
+    .cy-infos .num {
+        font-size: 30px;
+    }
+
+    .cy-infos .tt {
+        font-size: 24px;
+    }
+
+    .fatabs a {
+        font-size: 14px;
+        min-width: 100px;
+        margin-right: 10px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+    .section4 .topwrap {
+        margin-bottom: 20px;
+    }
+
+    .section4 {
+        padding-bottom: 40px;
+    }
+
+    .section3 {
+        padding-bottom: 50px;
+    }
+
+    .numlist li {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .numlist.c4 li {
+        width: 100%;
+    }
+
+    .numlist.c5 li {
+        width: 100%;
+    }
+
+    .numlist {
+        padding-top: 10px;
+    }
+
+    .jglist.w3 a {
+        width: 33.3%;
+    }
+
+    .jglist a {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .jiyu .tops {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 150px;
+    }
+
+    .jiyu .tops .list li span {
+        margin-right: 8px;
+    }
+
+    .jiyu .tops .ren img {
+        height: 180px;
+    }
+
+    .jiyu .tops .ren {
+        right: 10px;
+    }
+
+    .jiyu .brief {
+        font-size: 14px;
+        padding: 20px 30px 70px 20px;
+    }
+
+    .jiyu {
+        background-size: 180px auto;
+    }
+
+    .honorlist {
+        display: block;
+    }
+
+    .honorlist li {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .guanwrap {
+        padding: 0 60px;
+    }
+
+    .guanwrap .btn {
+        width: 40px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .guanhuai .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .guanhuai .state {
+        font-size: 14px;
+    }
+
+    .guanhuai {
+        padding-bottom: 30px;
+    }
+
+    .history .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .history .state {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .greenimg {
+        display: block;
+        margin: 0;
+    }
+
+    .greenimg img {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .greenimg img+img {
+        margin-top: 10px;
+    }
+
+    .green-items .item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .green-items .item+.item {
+        margin-top: 20px;
+    }
+
+    .green-items {
+        margin: 0;
+        display: block;
+    }
+
+    .green-items .tt {
+        margin-bottom: 10px;
+    }
+
+    .greenbox .mb40 {
+        margin-bottom: 20px;
+    }
+
+    .greenbox .mb30 {
+        margin-bottom: 15px;
+    }
+
+    .greenbox .mb20 {
+        margin-bottom: 15px;
+    }
+
+    .green-tags span {
+        font-size: 14px;
+        min-width: 120px;
+        height: 32px;
+        line-height: 30px;
+        margin-right: 10px;
+    }
+
+    .green-step span {
+        font-size: 14px;
+        height: 32px;
+        min-width: 120px;
+        line-height: 30px;
+    }
+
+    .green-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .green-brief.fs15 {
+        font-size: 14px;
+    }
+
+    .green-kangji li {
+        padding: 0 8px;
+    }
+
+    .green-kangji {
+        margin: 0 -8px;
+    }
+
+    .news-center-list li .pic {
+        width: 150px;
+        height: 100px;
+    }
+
+    .news-center-list li .tt {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .news-center-list li .date {
+        font-size: 12px;
+    }
+
+    .news-center-list li .desc {
+        font-size: 12px;
+    }
+
+    .news-center-list li {
+        margin-bottom: 20px;
+    }
+
+    .newsdetail .details {
+        padding: 30px 0;
+    }
+
+    .special-list li .tt {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .special-list li {
+        padding: 0 5px;
+        margin-bottom: 14px;
+    }
+
+    .special-list {
+        margin: 0 -5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner li .text .t1 {
+        font-size: 24px;
+    }
+
+   /* .banner li a {
+        height: 320px;
+    }*/
+
+    .banner-dots {
+        top: 35%;
+        padding-top: 70px;
+    }
+
+    .banner li .text .t2 {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .section1 .swiper-btns {
+        display: none;
+    }
+
+    .section1 .fw {
+        padding-right: 0;
+        display: block;
+    }
+
+    .hotnews {
+        margin-top: 12px;
+    }
+
+    .newslist li .tt {
+        font-size: 15px;
+    }
+
+    .newslist li .date {
+        font-size: 12px;
+    }
+
+    .newslist li a {
+        background-size: 6px auto;
+        padding-left: 15px;
+    }
+
+    .newslist li+li {
+        margin-top: 12px;
+    }
+
+    .tabswrap {
+        padding: 20px 0;
+    }
+
+    .section2 .left {
+        margin-bottom: 20px;
+    }
+
+    .person-area {
+        padding: 24px 140px 24px 20px;
+        min-height: 114px;
+        height: auto;
+    }
+
+    .person-area .brief {
+        margin-top: 18px;
+        padding-right: 30px;
+    }
+
+    .cy-infos .text {
+        font-size: 14px;
+    }
+
+    .fatabs a {
+        min-width: auto;
+    }
+
+    .sdgs {
+        margin-bottom: 20px;
+    }
+
+    .section4 .leftcon .brief {
+        font-size: 14px;
+    }
+
+    .cylist-swiper li {
+        padding: 20px 5px 20px 10px;
+    }
+
+    .totaldata {
+        padding: 16px 0;
+    }
+
+    .totaldata.mtb {
+        margin-bottom: 24px;
+    }
+
+    .section4 .leftcon .brief {
+        margin-bottom: 20px;
+    }
+
+    .totaldata .item {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .totaldata .item.xs {
+        width: 50%;
+        padding-right: 5px;
+    }
+
+    .totaldata .item:nth-child(3n)::after {
+        display: none;
+    }
+
+    .totaldata .item:nth-child(4),
+    .totaldata .item:nth-child(7),
+    .totaldata .item:nth-child(10) {
+        padding-left: 0;
+    }
+
+    .totaldata .item .n1 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .totaldata .item:nth-child(5n)::after {
+        display: none;
+    }
+
+    .totaldata.fwrap .item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .totaldata.fwrap .item.xs {
+        width: 50%;
+        padding-right: 5px;
+    }
+
+    .totaldata .item .n2 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .totaldata .item::after {
+        display: none;
+    }
+
+    .totaldata .item .f18 {
+        font-size: 16px;
+    }
+
+    .jiagou .item {
+        padding: 24px 15px 15px;
+    }
+
+    .jiagou .state {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .honorbox .img {
+        padding-top: 10px;
+    }
+
+    .guan-swiper li .con {
+        margin-top: 12px;
+        line-height: 1.7;
+    }
+
+    .guan-swiper li a {
+        padding: 10px 10px 15px;
+    }
+
+    .guanwrap {
+        padding: 0 10px;
+    }
+
+    .guanwrap .btn {
+        background-color: rgba(0, 84, 163, .8);
+    }
+
+    .ghwrap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hislist li {
+        display: block;
+        padding: 20px 0;
+    }
+
+    .hislist li .year {
+        margin-bottom: 14px;
+        font-size: 14px;
+        min-width: 120px;
+        width: auto;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .hislist li .hiscon {
+        margin-left: 0;
+    }
+
+    .green-types span {
+        min-width: 150px;
+    }
+
+    .green-tt {
+        margin-bottom: 16px;
+    }
+
+    .green-blue .ss {
+        font-size: 14px;
+    }
+
+    .green-blue .ss+.ss {
+        margin-top: 10px;
+    }
+
+    .green-list li {
+        width: 50%;
+    }
+
+    .green-tt {
+        font-size: 16px;
+    }
+
+    .greenbox .totaldata.br .item {
+        border-bottom: 0 !important;
+    }
+
+    .green-type2 {
+        margin: 0 -5px;
+    }
+
+    .green-type2 span {
+        font-size: 14px;
+        height: 44px;
+        line-height: 44px;
+        min-width: 150px;
+        margin: 0 5px 10px;
+    }
+
+    .green-kangji li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .green-kangji {
+        margin: 0;
+    }
+
+    .newsdetail .title {
+        font-size: 18px;
+    }
+
+    .newsdetail .tags {
+        margin: 10px 0 15px;
+        font-size: 12px;
+    }
+
+    .newsdetail .tags span {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+
+    .newsdetail .details {
+        padding: 20px 0;
+    }
+
+    .noticelist li {
+        padding-left: 20px;
+    }
+
+    .noticelist li .tt {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .noticelist li .date {
+        font-size: 12px;
+    }
+
+    .noticelist li a {
+        padding: 12px 0;
+    }
+
+    .special-list {
+        display: block;
+        margin: 0;
+    }
+
+    .special-list li {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner li .text .t1 {
+        font-size: 20px;
+    }
+
+    /*.banner li a {
+        height: 280px;
+    }*/
+
+    .hotnews li .tt {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .hotnews li .type {
+        padding: 0 12px;
+    }
+
+    .leftnews .swiper-pages-btns .btn {
+        display: none;
+    }
+
+    .leftnews .swiper-pages-btns {
+        bottom: 22px;
+    }
+
+    .leftnews li .dates {
+        margin-top: 16px;
+    }
+
+    .leftnews li .title {
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .leftnews .swiper-pages-btns .swiper-pagination {
+        margin: 0;
+    }
+
+    .person-area {
+        padding: 18px 150px 15px 20px;
+    }
+
+    .person-area .brief {
+        margin-top: 15px;
+    }
+
+    .section3 .topinfo .brief {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    .section3 .topinfo {
+        margin-bottom: 24px;
+    }
+
+    .section3 .topinfo .common-title {
+        margin-bottom: 15px;
+    }
+
+    .cywrap {
+        padding: 40px 20px;
+    }
+
+    .cylist-swiper li .tt {
+        font-size: 16px;
+    }
+
+    .section4 .topwrap {
+        margin-bottom: 10px;
+    }
+
+    .section4 .leftcon {
+        padding: 24px 15px;
+    }
+
+    .section4 .leftcon .tt1 {
+        font-size: 16px;
+    }
+
+    .section4 .leftcon .tt2 {
+        font-size: 16px;
+    }
+
+    .cywrap {
+        padding: 30px 15px;
+    }
+
+    .cy-infos .num {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .cy-infos .tt {
+        font-size: 20px;
+    }
+
+    .cy-infos .tw {
+        margin-bottom: 20px;
+    }
+
+    .cylist-swiper {
+        margin-top: 30px;
+    }
+
+    .numlist {
+        padding-top: 0;
+    }
+
+    .jiyu .tops .ren img {
+        height: 140px;
+    }
+
+    .jiyu .tops {
+        padding-right: 90px;
+    }
+
+    .jiyu .brief {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .guan-swiper li a {
+        padding: 10px 5px 12px;
+    }
+
+    .guanhuai .title {
+        font-size: 18px;
+    }
+
+    .history .title {
+        font-size: 18px;
+    }
+
+    .green-list li {
+        padding: 0 5px;
+        margin-bottom: 15px;
+    }
+
+    .green-list {
+        margin: 0 -5px;
+    }
+
+    .green-zhizao .con span {
+        height: 42px;
+        line-height: 40px;
+    }
+
+    .green-zhizao .t0 {
+        height: 42px;
+        line-height: 40px;
+    }
+
+    .green-types .one {
+        height: auto;
+        line-height: 1.8;
+        min-height: 42px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news-center-list li .pic {
+        width: 120px;
+        height: 90px;
+    }
+
+    .news-center-list li .con {
+        margin-left: 10px;
+    }
+
+    .bignews .tt {
+        font-size: 14px;
+    }
+
+    .sxlist li .tt {
+        font-size: 14px;
+    }
+
+    .sxlist li .con {
+        margin-left: 12px;
+    }
+
+    .sxlist li .pic {
+        width: 110px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+   /* .banner li a {
+        height: 240px;
+    }*/
+
+    .person-area .brief {
+        font-size: 13px;
+    }
+
+    .fatabs a {
+        height: 36px;
+        line-height: 36px;
+        font-size: 13px;
+        padding: 0 12px;
+        margin-right: 8px;
+    }
+
+    .cylist-swiper li .tt {
+        font-size: 14px;
+        margin-top: 32px;
+    }
+
+    .greentable th {
+        font-size: 12px;
+    }
+
+    .greentable td {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+*{margin:0 auto; padding:0;}
+body{color:#000;}
+img{border:none;vertical-align:middle;}
+form,fieldset,table{border:none;}
+ol,ul,li,dl,dt,dd,textarea{list-style:none;}
+strong,h1,h2,h3,h4,h5,h6{font-weight:bold;}
+em,blockquote{font-style:italic;}
+a{color:#006;text-decoration:none;margin:0 auto;}
+a:hover{color:#F00;text-decoration:underline;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.left{float:left;display:inline;}
+.right{float:right;display:inline;}
+table.table_1{text-align:center;vertical-align:middle;color:#666; border:1px solid #DDD; border-top:none; border-right:none;}
+table.table_1 td{border-width:1px 1px 0px 0px;border-style:solid;border-color:#DDD;height:22px;background-color:#FFF;}
+table.table_1 th{border-style:solid;border-color:#DDD;border-width:1px 1px 0px 0px;height:22px;background-color:#F7F7F7;}
+table.table_1 th.bg{background-color:#43ABD1; height:30px; line-height:30px; color:#FFF;}
+.m_t_15{margin-top:15px;}
+.m_t_20{margin-top:20px;}
+input[type="text"],input[type="password"]{background:#F9F9F9;border-color:#777 #ccc #ccc #777;border-style:solid;border-width:1px;font-size:13px;height:20px;line-height:20px;padding:0 5px; margin:0;}
+.long{height:200px;}
+.tabs{}
+.tabs .tabs-title{zoom:1;border-bottom:2px solid #999}
+.tabs .tabs-title:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.tabs .tabs-title-list{display:inline-block; padding:5px 10px; text-align:center;line-height:20px; background:#FCFCFC;color:#ABABAB;cursor:pointer; margin:0 5px;text-decoration:none;}
+.tabs .tabs-title-list.hover{background:#999;color:#000;}

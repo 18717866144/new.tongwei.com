@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>2018通威集团“身边的榜样”匠心工程暨颁奖盛典 - 现场视频直播</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="keywords" content="2018通威集团“身边的榜样”匠心工程暨颁奖盛典">
+<meta name="description" content="2018通威集团“身边的榜样”匠心工程暨颁奖盛典">
+
+<link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.6.0/skins/default/aliplayer-min.css" />
+
+<script src="https://g.alicdn.com/de/prismplayer/2.6.0/aliplayer-min.js"></script>
+
+
+<style>
+div,body,table,p{margin: 0 auto; boder:none; padding: 0}
+ul,li,ol,dl,dt,dd{list-style: none; margin: 0; padding: 0}
+img{vertical-align: middle; border:0;}
+body{font-size: 14px; font-family:"微软雅黑";line-height: 180%;color:#2b2b2b; background-color: #143c94;}
+a{color: #049; text-decoration: none}
+a:hover{color:#f60;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.left{float:left;display:inline;}
+.right{float:right;display:inline;}
+.wrap{width: 1000px;}
+.wrap img{width: 100%;}
+.live_title{background: #0061b0; line-height: 50px; height:50px; color:#FFF;}
+.live_title a{color: #fff;}
+a.btn{background: #F4F400; padding: 3px 10px; color:#049; border-radius: 3px;}
+a.btn:hover{background: #E6FB73}
+.live_title .left{margin-left: 10px;}
+.live_title .right{margin-right: 10px;}
+.footer{text-align: center; background: #fff; padding: 10px 0px;font-size: 12px;}
+
+#d{background: rgba(0,0,0,.8); width: 100%; height: 100%;  position:fixed;top:0;left:0; text-align:center; display: none; z-index: 99998;}
+#d a{position:absolute; top:0; margin:auto auto; bottom:0; left:0; right:0; width:200px; height:80px; line-height: 40px; text-align: center; color:#fff; font-size: 20px; background: red; z-index: 99999;}
+@media only screen and (max-width: 767px){
+	div.wrap{width:100%;}
+	div.jituanlogo{display:none;}
+	div.footer{width:90%; padding:5%;}
+	div.live_title{font-size:14px;}	 
+}
+.prism-width90{
+	width:100%;
+}
+
+#tips{
+  color:red;
+  display:inline-block;
+  float:right;
+  margin-right:30px;
+  position:relative;
+}
+
+#show_code:hover #erweima{
+  display:inline-block;
+}
+
+#erweima{
+  
+  width:130px;
+  height:130px;
+  display:none;
+  position:absolute;
+  right:0px;
+  top:50px;
+  background:url('erweima20181213.png') center no-repeat;
+  background-size:100%;
+  z-index:9999;
+}
+</style>
+</head>
+<body>
+<div class="wrap top">
+	<img src="20181213pctop.jpg">
+</div>
+<div class="wrap live_title">
+	<a name="video" id="video" href="#video"></a>
+	<div class="left">直播时间：2018/12/13 14:00 - 16:00
+	
+	</div>
+	
+	<div class="right"><a href="/a/20181213.html" class="btn">刷新页面</a></div>
+	<span id="tips">
+	  如果不能正常播放，请手机扫描二维码进行观看。&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" id="show_code">查看二维码<span id="erweima"></span></a>
+	  
+	</span>
+</div>
+<div class="wrap">
+	<div class="prism-player" id="J_prismPlayer"></div>
+</div>
+
+<div class="wrap footer clearfix">
+<p><a href="/intro/index.html" title="关于通威">关于通威</a> | <a href="/agri/index.html">产业领域</a> | <a href="/news/index.html">新闻中心</a> | <a href="/culture/index.html">品牌文化</a> | <a href="/join/index.html">加入通威</a></p>
+<p>通威集团有限公司　蜀ICP备05002048号<br>总部地址：四川省成都市高新区天府大道中段588号通威国际中心<br>电话：028-85188888　　技术支持：<a href="http://www.tongweimedia.com" target="_blank">通威传媒</a></p></div>
+<div style="display:none;"></div>
+<script type="text/javascript" src="/static/js/jquery.js" charset="UTF-8"></script>
+
+<script>
+
+    var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;//android终端
+	var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+
+   if(isiOS==true || isAndroid ==true)
+   {
+      $('.top').html('<img src="20181213mbtop.jpg">');
+      source_url='http://zb.tongwei.com/AppName/StreamName.m3u8?auth_key=1544840948-0-0-c96b6f77df9cfac085d6320871c1f40e';
+
+	  var player = new Aliplayer({
+	  id: 'J_prismPlayer',
+	  width: '100%',
+	  height: "300px",
+	  autoplay: true,
+	   controlBarVisibility:'alwayse',
+	   skinLayout:[                            // false | Array, 播放器使用的ui组件，非必填，不传使用默认，传false或[]整体隐藏
+	    {name: "bigPlayButton", align: "blabs", x: 30, y: 80},
+	    {name: "H5Loading", align: "cc"},
+	    {name: "errorDisplay", align: "tlabs", x: 0, y: 0},
+	    {name: "infoDisplay", align: "cc"},
+	    {name: "controlBar", align: "blabs", x: 0, y: 0,
+	      children: [
+	        {name: "progress", align: "blabs", x: 0, y: 44},
+	        {name: "playButton", align: "tl", x: 15, y: 12},
+	        {name: "timeDisplay", align: "tl", x: 10, y: 7},
+	        {name: "fullScreenButton", align: "tr", x: 10, y: 10},
+	        //{name: "snapshot", align: "tr", x: 10, y: 10},
+	        {name: "volume", align: "tr", x: 10, y: 10},
+	        {name:"streamButton", align:"tr",x:0, y:10},
+	        {name:"speedButton", align:"tr",x:0, y:10}
+	      ]
+	    }
+	  ],
+	  // isLive:true,
+	  userH5Prism:true,
+	  playsinline:true,
+	  source:source_url,
+	  // cover: 'http://liveroom-img.oss-cn-qingdao.aliyuncs.com/logo.png',
+	  });
+
+	   player.on('uiReady',function  (e) {
+	    $('.prism-player .prism-big-play-btn').css("bottom", "30px");
+
+	    });
+
+    }
+    else
+    {
+         
+      source_url='rtmp://zb.tongwei.com/AppName/StreamName?auth_key=1544838459-0-0-8c76c761a6daf3ebfb65d838dc6a2698';
+
+    	var $width = $(window).width();
+		var $w = $width > 1000 ? 1000 : $width;
+		//var $h = $w / 16 * 9  + 48;
+		var $h = $w / 16 * 7 ;
+
+        player = new Aliplayer({
+			id: "J_prismPlayer", // 容器id
+			source: source_url,  // 视频url 支持互联网可直接访问的视频地址
+			autoplay: true,//自动播放
+			width: "100%",//播放器宽度
+			height: $h+"px",//播放器高度
+			isLive: true,
+			extraInfo:{"m3u8BufferLength":"30", "liveStartTime":"2018/12/13 14:00:00", "liveStopTime":"2018/12/13 16:00:00", "liveRetry":1}
+		});
+
+    }
+        
+     
+    
+
+
+ 
+
+
+</script>
+</body>
+</html>

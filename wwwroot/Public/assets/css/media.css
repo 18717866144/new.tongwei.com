@@ -1,0 +1,2331 @@
+@media screen and (max-width: 1680px) {
+    .fw {
+        width: 1480px;
+    }
+
+    .fw2 {
+        width: 1480px;
+    }
+    .foot-top .wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 24px;
+        max-width: 1220px;
+        margin: 0 auto;
+    }
+    .foot-top .left .infos {
+        margin-bottom: 31px;
+    }
+    .foot-top .right {
+        margin-left: 20px;
+    }
+
+    .foot-top .right .item {
+        /*margin-right: 46px;*/
+        margin: 0 auto;
+    }
+
+    .foot-top .right .item:last-child {
+        margin-right: 16px;
+    }
+
+    .foot-top .sublist a {
+        font-size: 15px;
+    }
+
+    .foot-top .right .line {
+        top: 38px;
+    }
+
+    .foot-top .item .tt {
+        margin-bottom: 30px;
+    }
+
+    .foot-top .sublist a+a {
+        margin-top: 14px;
+    }
+
+    .foot-search-wrap .sbtn img {
+        width: 20px;
+        height: auto;
+    }
+
+    .foot-top .codes {
+        margin-left: 45%;
+    }
+
+    .foot-top .codes .citem {
+        width: 145px;
+        /*margin-right: 80px;*/
+    }
+
+    .foot-top .codes .citem .t0 {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .index-erweima.mt {
+        width: 136px;
+        margin-top: 86px;
+        margin-left: 0;
+    }
+    .foot-top .left {
+        max-width: 450px;
+    }
+
+    .foot-top .links a {
+        margin: 0 22px;
+    }
+
+    .duty-wrap .next {
+        right: 0;
+    }
+
+    .duty-wrap .prev {
+        left: 0;
+    }
+
+    .duty-wrap .btn {
+        background-color: rgba(230, 230, 230, .5);
+    }
+    .zaiti-infos .left {
+        width: 31.1%;
+    }
+    .special-three{
+        margin-top: 60px;
+    }
+    .special-three .smenuwrap.fixed {
+        position: fixed;
+        top: 100px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .special-three{
+        margin-top: 60px;
+    }
+
+    .special-two {
+        padding-top: 360px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .special-three{
+        margin-top: 60px;
+    }
+    .foot-top .right .item:last-child {
+        margin-right: 16px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .special-three{
+        margin-top: 60px;
+    }
+    .foot-top .right .item:last-child {
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .fw {
+        width: 1480px;
+    }
+
+    .fw2 {
+        width: 1280px;
+    }
+
+    .foot-top .left {
+        max-width: 390px;
+    }
+
+    .foot-top .codes .citem {
+        width: 136px;
+        margin-right: 50px;
+    }
+    .index-erweima.mt{
+        width: 136px;
+        margin-right: 86px;
+        margin-top: 98px;
+    }
+    .foot-top .links {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .foot-top .right {
+        margin-left: 38px;
+    }
+
+    .foot-top .right .item {
+        margin-right: 40px;
+    }
+
+    .foot-top .left .infos {
+        margin-bottom: 24px;
+    }
+
+    .foot-top .left .infos p+p {
+        margin-top: 10px;
+    }
+
+    .foot-top .links a {
+        /*margin: 0 20px 10px 20px;*/
+        margin: 0 15px;
+    }
+
+    .language {
+        margin-left: 50px;
+    }
+
+    .nav li {
+        margin-left: 40px;
+    }
+
+    .intitle-wrap .tips {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .swiper-common-btns {
+        width: 220px;
+        height: 70px;
+    }
+
+    .common-images-swiper li .tt {
+        height: 70px;
+        line-height: 70px;
+        padding-right: 230px;
+        padding-left: 36px;
+    }
+
+    .common-images-swiper li .tt::before {
+        left: 20px;
+    }
+
+    .subbox .item .state {
+        font-size: 16px;
+    }
+
+    .subbox .item .title {
+        margin-bottom: 20px;
+    }
+
+    .shiliao-swiper li .text {
+        font-size: 14px;
+    }
+
+    .shiliao-swiper li .icon span {
+        font-size: 16px;
+    }
+
+    .shiliao-swiper li .cons {
+        padding: 0 16px 20px;
+    }
+
+    .shiliao-swiper li .text {
+        margin-top: 15px;
+    }
+
+    .other-list li .state {
+        font-size: 15px;
+    }
+
+    .other-list li .text {
+        padding-right: 30px;
+    }
+
+    .zaiti-list li {
+        padding: 0 30px;
+    }
+
+    .zaiti-list {
+        margin: 0 -30px;
+    }
+
+    .zaiti-list.w3 li {
+        width: 33.3%;
+        padding: 0 50px;
+    }
+
+    .zaiti-list.w3 {
+        margin: 0 -50px;
+    }
+
+    .zaiti-right {
+        margin-left: 50px;
+    }
+
+    .zaiti-right.ml {
+        margin-left: 40px;
+    }
+
+    .zaiti-infos .left {
+        padding-right: 20px;
+    }
+
+    .zaiti-infos .left .tt {
+        font-size: 16px;
+    }
+
+    .zaiti-infos .right .title {
+        font-size: 24px;
+    }
+
+    .zaiti-infos .right .subtitle {
+        font-size: 20px;
+    }
+
+    .zaiti-infos .left .cons {
+        width: 340px;
+    }
+
+    .zaiti-infos .right .wrap {
+        padding-left: 30px;
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .fw {
+        width: 1280px;
+    }
+    .language {
+        margin-left: 40px;
+    }
+
+    .nav li .item {
+        font-size: 16px;
+    }
+
+    .swiper-btns a {
+        height: 54px;
+    }
+
+    .swiper-btns {
+        width: 110px;
+    }
+
+    .chanye-top .left .brief {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .cyicon-list {
+        margin-top: 30px;
+    }
+
+    .foot-top .codes .citem {
+        width: 130px;
+        margin-right:50px;
+    }
+    .index-erweima.mt{
+        width: 128px;
+        margin-right: 86px;
+        margin-top: 110px;
+    }
+    .foot-top .links a {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .fw {
+        width: 1190px;
+        padding: 0 5px;
+    }
+    .foot-top .codes .citem {
+        width: 120px;
+        margin-right: 36px;
+    }
+    .index-erweima.mt{
+        width: 118px;
+        margin-right: 86px;
+        margin-top: 100px;
+    }
+    .foot-top .left .infos {
+        font-size: 14px;
+    }
+    .foot-top .links a {
+        margin: 0 10px;
+    }
+    .common-title .title {
+        font-size: 20px;
+    }
+
+    .common-title {
+        padding-left: 22px;
+    }
+
+    .common-title::before {
+        width: 6px;
+    }
+
+    .swiper-btns a {
+        height: 48px;
+    }
+
+    .swiper-btns {
+        width: 100px;
+    }
+
+    .chanye-left {
+        padding-left: 30px;
+    }
+
+    .chanye-left li .text {
+        font-size: 15px;
+    }
+
+    .chanye-left li {
+        padding: 20px 0;
+    }
+
+    .chanye-top .left {
+        padding-right: 30px;
+    }
+
+    .cyicon-list li .icon {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .cyicon-list li .tt2 {
+        font-size: 14px;
+    }
+
+    .other-list li .state {
+        margin-bottom: 20px;
+    }
+
+    .zaiti-list li {
+        padding: 0 20px;
+    }
+
+    .zaiti-list {
+        margin: 0 -20px;
+    }
+
+    .zaiti-list.w3 li {
+        width: 33.3%;
+        padding: 0 30px;
+    }
+
+    .zaiti-list.w3 {
+        margin: 0 -30px;
+    }
+
+    .zaiti-list li .tt {
+        font-size: 16px;
+    }
+
+    .leftmenu a {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .leftmenu a.active {
+        font-size: 20px;
+    }
+
+    .year-swiper li {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .year-swiper li.active {
+        font-size: 18px;
+    }
+
+    .leftmenu {
+        width: 160px;
+    }
+
+    .zaiti-title .title {
+        font-size: 20px;
+    }
+
+    .zaiti-title {
+        padding-bottom: 20px;
+    }
+
+    .sjlist li+li {
+        margin-top: 16px;
+    }
+
+    .sjlist li a {
+        font-size: 14px;
+    }
+
+    .zaiti-detail .left {
+        margin-right: 30px;
+    }
+
+    .zaiti-detail .btns a {
+        height: 54px;
+        line-height: 52px;
+        font-size: 16px;
+    }
+
+    .study-plan {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .study-plan .left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .study-three {
+        padding-top: 0;
+        display: block;
+    }
+
+    .study-three .left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .zpbox .brief {
+        padding-top: 30px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .keyanlist li .state p {
+        font-size: 14px;
+        padding-left: 16px;
+    }
+
+    .keyanlist li .tt {
+        font-size: 16px;
+    }
+
+    .keyanlist li .ww {
+        padding: 18px 15px;
+    }
+
+    .zhuanli-data2 li {
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+
+    .zhuanli-data2 {
+        flex-wrap: wrap;
+    }
+
+    .zhuanli-data .item .num {
+        font-size: 24px;
+    }
+
+    .foot-top .right .item {
+        margin-right: 33px;
+    }
+
+    .foot-top .left {
+        max-width: 360px;
+    }
+
+    .foot-top .item .tt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .foot-top .right .item {
+        margin-right: 27px;
+    }
+
+    .foot-top .right {
+        margin-left: 40px;
+    }
+
+    .foot-top .left {
+        max-width: 320px;
+    }
+
+    .foot-top .item .tt {
+        font-size: 14px;
+    }
+
+    .foot-top .sublist a {
+        font-size: 12px;
+    }
+    .foot-top .codes .citem {
+        width: 116px;
+        margin-right: 20px;
+    }
+
+    .foot-top .links a {
+        margin: 0 5px;
+    }
+    .nav li {
+        margin-left: 30px;
+    }
+    .index-erweima.mt{
+        width: 106px;
+        padding-right: 3px;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .index-erweima .mt{
+        width: 100px;
+        padding-right: 5px;
+    }
+    .nav li {
+        margin-left: 24px;
+    }
+
+    .foot-top .right .line {
+        display: none;
+    }
+
+    .foot-top .right {
+        display: block;
+        padding-right: 0;
+        display: none;
+    }
+
+    .foot-top .sublist {
+        display: none;
+        padding: 10px 0 3px;
+    }
+
+    .foot-top .sublist a {
+        font-size: 12px;
+    }
+
+    .foot-top .sublist a+a {
+        margin-top: 6px;
+    }
+
+    .foot-top .item .tt {
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+
+    .foot-top .right .item {
+        margin-bottom: 10px;
+    }
+
+    .foot-top .wrap {
+        padding-bottom: 15px;
+    }
+
+    .foot-top .left {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .subbanner .t1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .subbanner {
+        height: 300px;
+    }
+
+    .subbanner .state {
+        font-size: 14px;
+    }
+
+    .menuswiper li a {
+        font-size: 16px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .chanye-top {
+        display: block;
+    }
+
+    .chanye-top .left {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .subbox .iflex {
+        display: block;
+    }
+
+    .subbox .iflex .left {
+
+        margin-left: 0;
+    }
+
+    .subbox .iflex .pic {
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .chanye-four {
+        display: block;
+    }
+
+    .chanye-four .leftimg {
+        display: none;
+    }
+
+    .chanye-left {
+        padding-left: 0;
+    }
+
+    .chanye-four {
+        margin-top: 50px;
+    }
+
+    .chanye-left li .t0 {
+        display: inline-block;
+    }
+
+    .chanye-data .t2 span {
+        font-size: 32px;
+    }
+
+    .chanye-data .t2 {
+        font-size: 16px;
+    }
+
+    .chanye-data .t1 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .other-list li .wrap {
+        display: block;
+    }
+
+    .other-list li .text {
+        padding-right: 0;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .zaiti-list li {
+        width: 33.3%;
+    }
+
+    .zaiti-list li .tt {
+        font-size: 16px;
+    }
+
+    .zaiti-list.w3 li {
+        padding: 0 20px;
+    }
+
+    .zaiti-list.w3 {
+        margin: 0 -20px;
+    }
+
+    .common-images-swiper.nobtn li .tt {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 12px;
+    }
+
+    .common-images-swiper.nobtn li .tt::before {
+        top: 26px;
+    }
+
+    .backbtn {
+        height: 56px;
+        padding-left: 28px;
+        line-height: 56px;
+    }
+
+    .leftmenu {
+        display: none;
+    }
+
+    .zaiti-right {
+        margin-left: 0;
+    }
+
+    .zaiti-right.ml {
+        margin-left: 0;
+    }
+
+    .yearwrap {
+        margin-bottom: 30px;
+    }
+
+    .zaiti-flex {
+        display: block;
+    }
+
+    .zaiti-mennu-swiper {
+        display: block;
+    }
+
+    .jiandu-info .wrap {
+        display: block;
+    }
+
+    .jiandu-info .right .item {
+        margin-left: 0;
+    }
+
+    .jiandu-info .right .item+.item {
+        margin-left: 20px;
+    }
+
+    .jiandu-info .right {
+        margin-top: 30px;
+    }
+
+    .dudata-list li .desc {
+        font-size: 14px;
+    }
+
+    .dudata-list li .tt {
+        font-size: 14px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .zpinfo .tt {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .zpinfo .logo {
+        padding-right: 15px;
+    }
+
+    .zpinfo .logo img {
+        max-width: 150px;
+    }
+
+    .zpinfo .text {
+        padding-left: 20px;
+    }
+
+    .zpinfo a {
+        padding-left: 20px;
+    }
+
+    .zhuanli {
+        display: block;
+    }
+
+    .zhuanli .left {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hezuolist {
+        flex-wrap: wrap;
+    }
+
+    .hezuolist .item {
+        width: 50%;
+        flex: none;
+    }
+
+    .hzlist li {
+        width: 50%;
+    }
+
+    .hezuolist .line2 {
+        display: none;
+    }
+
+    .hezuolist .line1 {
+        right: 50%;
+    }
+
+    .chengguo-list li .tt {
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding-left: 12px;
+    }
+
+    .chengguo-list li .tt::before {
+        height: 16px;
+        margin-top: -8px;
+    }
+
+    .chengguo-list li .con {
+        font-size: 14px;
+    }
+
+    .chengguo-list li .text {
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .video-list li {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .video-list {
+        margin: 0 -15px;
+    }
+
+    .video-list li .tt {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .pb100 {
+        padding-bottom: 60px;
+    }
+    .foot-top .codes{
+        margin-left: 1%;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .navbtn {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .navwrap {
+        position: fixed;
+        width: 100%;
+        top: 60px;
+        left: 100%;
+        bottom: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 20px;
+        background-color: #f8f8f8;
+        transition: all 0.5s;
+    }
+
+    body.open .navwrap {
+        left: 0;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav li {
+        margin-left: 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .nav li .item {
+        display: block;
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 18px auto;
+    }
+
+    .nav li .item.next {
+        background-image: url(../images/rr.png);
+    }
+
+    .nav li.down .item.next {
+        background-image: url(../images/xia.png);
+    }
+
+    .nav li .item::after {
+        display: none;
+    }
+
+    .nav li.active .item::after {
+        display: none;
+    }
+
+    .subnav {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        transform: translate(0, 0);
+        box-shadow: none;
+        display: none;
+        background-color: #fafafa;
+        padding: 4px 0 10px;
+    }
+
+    .subnav a {
+        text-align: left;
+        font-weight: normal;
+        font-size: 15px;
+        padding: 6px 0;
+    }
+
+    .nav li.down .subnav {
+        display: block;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .mt100 {
+        margin-top: 60px;
+    }
+
+    .language {
+        margin-left: 0;
+    }
+
+    .search-btn img {
+        width: 20px;
+        height: auto;
+    }
+
+    .search-btn {
+        margin-left: 16px;
+    }
+
+    .language img {
+        width: 24px;
+        height: auto;
+    }
+
+    .head-search {
+        height: 60px;
+        padding-top: 11px;
+    }
+
+    .head-search input {
+        height: 38px;
+    }
+
+    .head-search .btn-search img {
+        height: 18px;
+    }
+
+    .head-search .btn-search {
+        margin-top: -12px;
+        right: 44px;
+    }
+
+    .head-search .btn-close img {
+        height: 24px;
+    }
+
+    .head-search {
+        padding-right: 33px;
+    }
+
+    .head-search .btn-close {
+        margin-top: -12px;
+    }
+
+    .mapwrap {
+        height: 500px;
+    }
+
+    .mapwrap .infos {
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .map-bottom .erweima {
+        right: 15px;
+        width: 110px;
+    }
+
+    .map-bottom {
+        padding: 24px 15px;
+    }
+
+    .map-bottom .tt {
+        font-size: 14px;
+        padding-left: 40px;
+    }
+
+    .map-bottom .tt .tel {
+        font-size: 16px;
+    }
+
+    .map-bottom .tt .ss {
+        font-size: 16px;
+    }
+
+    .chanye-data {
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+
+    .green-swiper li {
+        padding-top: 150px;
+    }
+
+    .green-swiper li .cons .text {
+        line-height: 1.8;
+    }
+
+    .green-swiper li .cons {
+        padding: 15px 12px 10px;
+    }
+
+    .green-swiper li .cons .tt {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .food-list li .num {
+        font-size: 36px;
+    }
+
+    .food-list li .tt {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .food-list li .brief {
+        font-size: 14px;
+        line-height: 2;
+        text-align: justify;
+    }
+
+    .food-list li:nth-child(1),
+    .food-list li:nth-child(2) {
+        padding-bottom: 24px;
+    }
+
+    .food-list li:nth-child(3),
+    .food-list li:nth-child(4) {
+        padding-top: 20px;
+    }
+
+    .food-list li:nth-child(even) {
+        padding-left: 20px;
+    }
+
+    .food-list li:nth-child(odd) {
+        padding-right: 20px;
+    }
+
+    .guidata .gitem {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .guidata {
+        padding-bottom: 2px;
+    }
+
+    .guidata .gitem .n2 {
+        margin-bottom: 6px;
+    }
+
+    .nianbox .fw2 {
+        display: block;
+    }
+
+    .nianbox .title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .jiazhi .bg {
+        bottom: 20px;
+    }
+
+    .zaiti-title {
+        margin-bottom: 30px;
+    }
+
+    .zaiti-infos {
+        display: block;
+    }
+
+    .zaiti-infos .left {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .zaiti-infos .left .cons {
+        width: 100%;
+        float: none;
+    }
+
+    .zaiti-infos .left .imgs {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .zaiti-infos .left .tt {
+        margin-bottom: 20px;
+    }
+
+    .zaiti-infos .left .btns {
+        max-width: 300px;
+        margin: 15px auto 0;
+    }
+
+    .zaiti-infos .right {
+        padding: 30px 20px;
+    }
+
+    .zaiti-infos .right .wrap {
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .dudata-list li {
+        width: 50%;
+    }
+
+    .dudata-list {
+        margin-bottom: 15px;
+    }
+
+    .zpinfo {
+        display: block;
+    }
+
+    .zpinfo a {
+        width: 100%;
+    }
+
+    .zpinfo a+a {
+        margin-top: 30px;
+    }
+
+    .zpbox .zpwrap {
+        padding: 0 20px 30px;
+    }
+
+    .zpbox .brief {
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    .zpbox .zpimg .bigimg {
+        display: none;
+    }
+
+    .zpbox .zpimg .xsimg {
+        display: block;
+    }
+
+    .keyanlist li {
+        width: 50%;
+    }
+
+    .zltable table th {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+
+    .zltable table td {
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+
+    .zltable table td .tt {
+        padding-left: 15px;
+    }
+
+    .zltable table .th2 {
+        min-width: 88px;
+    }
+
+    .switch a {
+        font-size: 14px;
+    }
+
+    .switch .next {
+        padding-right: 28px;
+    }
+
+    .switch .prev {
+        padding-left: 28px;
+    }
+
+    .switch {
+        margin-top: 30px;
+    }
+    .special-three .smenuwrap.fixed {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .foot-top .codes{
+        margin-left: 1%;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .swiper-pages-btns .btn {
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+    }
+
+    .jiazhi .bg {
+        bottom: 16px;
+    }
+
+    .zaiti-list li {
+        padding: 0 15px;
+    }
+
+    .zaiti-list {
+        margin: 0 -15px;
+    }
+
+    .zaiti-detail {
+        display: block;
+    }
+
+    .zaiti-detail .left {
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .dubrief {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .foot-top .codes{
+        margin-left: 1%;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .fw {
+        padding: 0 15px;
+    }
+
+    .fw2 {
+        padding: 0 15px;
+    }
+
+    .head-search {
+        max-width: 400px;
+    }
+
+    .page-pt {
+        padding-top: 20px;
+    }
+
+    .page-pb {
+        padding-bottom: 50px;
+    }
+
+    .pages a {
+        width: 36px;
+        height: 36px;
+        line-height: 34px;
+        margin: 0 3px;
+    }
+
+    .mapwrap .infos p {
+        font-size: 14px;
+        background-size: 16px auto;
+        padding: 8px 10px 8px 42px;
+        background-position: 15px center;
+    }
+
+    .map-bottom .erweima {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 136px;
+        text-align: center;
+        margin: 20px auto 0;
+    }
+
+    .map-bottom .erweima img {
+        width: 100px;
+    }
+
+    .intitle {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .pb100 {
+        padding-bottom: 50px;
+    }
+
+    .pt50 {
+        padding-top: 40px;
+    }
+
+    .intitle-wrap .tips {
+        margin-top: 10px;
+    }
+
+    .intitle-wrap {
+        padding-bottom: 18px;
+        margin-bottom: 20px;
+    }
+
+    .intitle-wrap .title {
+        font-size: 20px;
+    }
+
+    .swiper-common-btns {
+        width: 160px;
+        height: 50px;
+        padding: 0 20px;
+    }
+
+    .swiper-common-btns .swiper-pagination {
+        font-size: 16px;
+    }
+
+    .common-images-swiper li .tt {
+        height: 50px;
+        padding-left: 22px;
+        line-height: 50px;
+        padding-right: 154px;
+    }
+
+    .common-images-swiper li .tt::before {
+        left: 12px;
+    }
+
+    .subbox .item {
+        padding: 20px;
+    }
+
+    .subbox .item .title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .subbox .item .state {
+        font-size: 14px;
+    }
+
+    .green-swiper {
+        margin-top: 30px;
+    }
+
+    .food-list {
+        display: block;
+    }
+
+    .food-list li {
+        width: 100%;
+        padding: 10px 0 15px;
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .food-list li:nth-child(even) {
+        padding-left: 0;
+    }
+
+    .food-list li:nth-child(odd) {
+        padding-right: 0;
+    }
+
+    .food-list {
+        margin-top: 10px;
+    }
+
+    .cyicon-list li .icon {
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .other-list li .tt {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .other-list li {
+        padding: 30px 0;
+    }
+
+    .dangjian-brief {
+        font-size: 14px;
+        line-height: 2;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .nianbox1 .tt2 {
+        font-size: 16px;
+    }
+
+    .nianbox1 .tt3 {
+        font-size: 14px;
+    }
+
+    .nianbox .states {
+        font-size: 14px;
+    }
+
+    .shiming li {
+        width: 50%;
+    }
+
+    .zjyoushi li{
+        width: 50%;
+    }
+
+    .chegnlist li {
+        padding: 20px 16px;
+    }
+
+    .nianbox .blue {
+        font-size: 16px;
+    }
+
+    .jiazhi .state {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .chanye-top2 {
+        margin-bottom: 30px;
+    }
+
+    .duty-wrap .btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .backbtn {
+        height: 48px;
+        line-height: 48px;
+        padding-left: 18px;
+        font-size: 14px;
+        background-size: 9px auto;
+    }
+
+    .zaiti-mennu-swiper li a {
+        font-size: 14px;
+    }
+
+    .year-swiper li {
+        font-size: 14px;
+    }
+
+    .year-swiper li.active {
+        font-size: 16px;
+    }
+
+    .year-swiper .year-list.active {
+        font-size: 16px;
+    }
+
+    .yearwrap .nextbtn {
+        width: 24px;
+        height: 24px;
+    }
+
+    .yearwrap {
+        padding-right: 34px;
+    }
+
+    .year-swiper li {
+        padding-bottom: 15px;
+    }
+
+    .zaiti-list.w3 li {
+        padding: 0 10px;
+    }
+
+    .zaiti-list.w3 {
+        margin: 0 -10px;
+    }
+
+    .zaiti-title .title {
+        font-size: 18px;
+    }
+
+    .zaiti-title .datebtn {
+        font-size: 14px;
+        min-width: 124px;
+    }
+
+    .zaiti-title .datebtn img {
+        margin-left: 10px;
+    }
+
+    .jiandu-info {
+        padding: 20px;
+    }
+
+    .dudata-list li {
+        padding: 0 6px;
+        margin-bottom: 12px;
+    }
+
+    .dudata-list {
+        margin-left: -6px;
+        margin-right: -6px;
+        margin-bottom: 10px;
+    }
+
+    .stulist li {
+        width: 50%;
+    }
+
+    .study-images img {
+        width: 50%;
+    }
+
+    .study-images {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .chengguo-list li .text {
+        max-width: 80%;
+    }
+
+    .foot-top .codes{
+        margin-left: 1%;
+    }
+    .zaiti-mennu-swiper li.active a {
+        font-size: 16px;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .header .logo img {
+        max-height: 30px;
+    }
+
+    .head-search {
+        max-width: 300px;
+    }
+
+    .foot-search {
+        max-width: 300px;
+        height: 36px;
+        padding-right: 32px;
+    }
+
+    .head-search input {
+        font-size: 12px;
+        padding: 0 40px 0 12px;
+    }
+
+    .foot-search input {
+        font-size: 14px;
+        padding: 0 40px 0 12px;
+        height: 36px;
+    }
+
+    .foot-search .btn-search img {
+        height: 18px;
+    }
+
+    .foot-search .btn-search {
+        right: 42px;
+    }
+
+    .foot-top .links a {
+        font-size: 13px;
+        margin: 0 10px 6px;
+    }
+
+    .foot-top .links {
+        margin: 0 -10px;
+        padding-top: 14px;
+        padding-bottom: 8px;
+    }
+
+    .foot-bottom {
+        font-size: 12px;
+        padding: 15px 0;
+    }
+
+    .foot-top .codes .citem {
+        width: 100px;
+    }
+
+    .foot-top .left .infos {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding-top: 20px;
+    }
+
+    .subbanner .t1 {
+        font-size: 24px;
+    }
+
+    .subbanner .state {
+        font-size: 12px;
+    }
+
+    .subbanner {
+        height: 240px;
+    }
+
+    .menuswiper li a {
+        font-size: 15px;
+        height: 48px;
+        line-height: 48px;
+    }
+
+    .map-bottom .tt {
+        flex-wrap: wrap;
+    }
+
+    .map-bottom .tt span:first-child {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .map-bottom .tt .ss {
+        margin: 0 5px;
+    }
+
+    .mapwrap {
+        height: 420px;
+    }
+
+    .common-title .title {
+        font-size: 18px;
+    }
+
+    .common-title {
+        padding-left: 18px;
+    }
+
+    .common-title::before {
+        width: 5px;
+        height: 20px;
+        margin-top: -10px;
+    }
+
+    .fw2 {
+        padding: 0 15px;
+    }
+
+    .pt50 {
+        padding-top: 30px;
+    }
+
+    .subbox .item+.item {
+        margin-top: 15px;
+    }
+
+    .subbox .item {
+        padding: 14px;
+    }
+
+    .chanye-left li .text {
+        font-size: 14px;
+    }
+
+    .chanye-four {
+        margin-top: 20px;
+    }
+
+    .shiliao-swiper li .text {
+        font-size: 13px;
+        margin-top: 10px;
+        min-height: 190px;
+    }
+
+    .shiliao-swiper li .icon img {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .shiliao-swiper li .icon span {
+        font-size: 14px;
+    }
+
+    .shiliao-swiper {
+        margin-top: 30px;
+    }
+
+    .yutitle {
+        color: #0054a3;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .food-list li .tt {
+        margin-bottom: 10px;
+    }
+
+    .food-list li:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .guidata .gitem .n0 span {
+        font-size: 16px;
+    }
+
+    .guidata .gitem {
+        padding-right: 4px;
+        margin-bottom: 20px;
+    }
+
+    .guidata {
+        margin-bottom: 20px;
+    }
+
+    .other-list li {
+        padding: 20px 0;
+    }
+
+    .other-chanye .brief {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .other-logos {
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .other-logos a {
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .common-images-swiper .swiper-common-btns {
+        position: relative;
+        margin: 10px auto 0;
+    }
+
+    .common-images-swiper li .tt {
+        padding-right: 12px;
+    }
+
+    .shiming li {
+        width: 100%;
+    }
+
+    .zjyoushi li{
+        width: 100%;
+    }
+
+    .yuanlist li .t0 {
+        font-size: 16px;
+        padding-left: 12px;
+    }
+
+    .yuanlist li .t0::after {
+        width: 4px;
+    }
+
+    .yuanlist li {
+        margin-top: 20px;
+    }
+
+    .shiming li .text {
+        padding: 15px 12px;
+    }
+
+    .shitop .t1 {
+        font-size: 16px;
+    }
+
+    .zaiti-list li {
+        width: 50%;
+        padding: 0 6px;
+        margin-bottom: 30px;
+    }
+
+    .zaiti-list li .pic {
+        padding: 5px;
+    }
+
+    .zaiti-list {
+        margin: 0 -6px;
+    }
+
+    .page-pt {
+        padding-top: 10px;
+    }
+
+    .jiazhi .state {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .zaiti-list.w3 li {
+        width: 50%;
+    }
+
+    .zaiti-detail {
+        padding: 10px;
+    }
+
+    .zaiti-detail .title {
+        font-size: 16px;
+        padding-bottom: 12px;
+        margin-bottom: 15px;
+    }
+
+    .sjlist.mb50 {
+        margin-bottom: 30px;
+    }
+
+    .sjlist li+li {
+        margin-top: 12px;
+    }
+
+    .zaiti-detail .btns a {
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+    }
+
+    .zaiti-infos .left .btns a {
+        font-size: 14px;
+    }
+
+    .zaiti-infos .right .title {
+        font-size: 20px;
+    }
+
+    .zaiti-infos .right .subtitle {
+        font-size: 18px;
+    }
+
+    .jiandu-info .right .item {
+        width: 120px;
+    }
+
+    .jiandu-info .right .tt {
+        font-size: 12px;
+    }
+
+    .infolist .info .line {
+        margin: 0 10px;
+    }
+
+    .duline {
+        margin-bottom: 20px;
+    }
+
+    .dutitle {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .dubrief {
+        margin-bottom: 20px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .dudata-list li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .dudata-list {
+        display: block;
+        margin: 0 0 15px;
+    }
+
+    .zpinfo .logo {
+        padding-right: 10px;
+    }
+
+    .zpinfo .tt {
+        font-size: 14px;
+    }
+
+    .zpinfo .look span {
+        font-size: 12px;
+    }
+
+    .zpinfo .text {
+        padding-left: 10px;
+    }
+
+    .zpinfo {
+        padding: 16px 0;
+    }
+
+    .zpinfo a+a {
+        margin-top: 16px;
+    }
+
+    .zpinfo .text::after {
+        height: 32px;
+        margin-top: -16px;
+    }
+
+    .keyanlist li .tt img {
+        width: 18px;
+        margin-right: 6px;
+    }
+
+    .keyanlist li .tt {
+        font-size: 14px;
+    }
+
+    .keyanlist li .ww {
+        padding: 14px 12px;
+    }
+
+    .keyanlist li .state p+p {
+        margin-top: 10px;
+    }
+
+    .keyanlist li .state {
+        padding: 12px 0 0;
+    }
+
+    .keyanlist li {
+        padding: 0 5px;
+        margin-bottom: 14px;
+    }
+
+    .keyanlist {
+        margin: 0 -5px;
+    }
+
+    .zhuanli-data .item {
+        font-size: 14px;
+    }
+
+    .zhuanli-data .item .num {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    .zhuanli .t1 {
+        margin-bottom: 10px;
+    }
+
+    .zhuanli-data2 li .num {
+        font-size: 16px;
+    }
+
+    .zhuanli-wrap .notes {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .zhuanli-data2 li {
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .zhuanli-data2 {
+        margin-bottom: 5px;
+    }
+
+    .zhuanli {
+        margin-bottom: 24px;
+    }
+
+    .zhuanli-wrap {
+        padding: 14px 16px;
+    }
+
+    .hzlist li {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .hzlist {
+        margin: 0;
+    }
+
+    .hezuolist {
+        padding-top: 0;
+    }
+
+    .hezuolist .line1 {
+        display: none;
+    }
+
+    .chengguo-list li .text {
+        max-width: 100%;
+    }
+
+    .chengguo-list li .tt {
+        margin-bottom: 10px;
+    }
+
+    .chengguo-list {
+        padding-bottom: 10px;
+    }
+
+    .video-list li {
+        padding: 0 5px;
+        margin-bottom: 15px;
+    }
+
+    .video-list {
+        margin: 0 -5px;
+    }
+
+    .video-list li .pic {
+        padding: 4px;
+    }
+    .foot-top .codes{
+        margin-left: 1%;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mapwrap .infos {
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .pb100 {
+        padding-bottom: 40px;
+    }
+
+    .intitle-wrap .title {
+        font-size: 18px;
+    }
+
+    .shiliao-swiper li {
+        height: 310px;
+    }
+
+    .shiliao-swiper li .img {
+        display: none;
+    }
+
+    .shiliao-swiper li .cons {
+        padding: 0 10px 15px;
+    }
+
+    .chanye-data {
+        margin-top: 20px;
+        padding: 15px 0;
+    }
+
+    .chanye-data .t2 {
+        font-size: 14px;
+    }
+
+    .chanye-data .t2 span {
+        font-size: 28px;
+    }
+
+    .other-list li .tt {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .chegnlist li .icon {
+        width: 70px;
+    }
+
+    .chegnlist li .icon img {
+        width: 54px;
+    }
+
+    .intitle {
+        margin-bottom: 16px;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .zaiti-list li .tt {
+        font-size: 14px;
+    }
+
+    .duty-wrap .btn {
+        top: 26%;
+    }
+
+    .year-swiper li.active {
+        font-size: 15px;
+    }
+
+    .zaiti-title .title {
+        font-size: 16px;
+        padding-right: 12px;
+    }
+
+    .zaiti-title {
+        padding-bottom: 12px;
+        margin-bottom: 20px;
+    }
+
+    .zaiti-list li {
+        margin-bottom: 24px;
+    }
+
+    .zaiti-infos .left .title {
+        font-size: 16px;
+    }
+
+    .dudata-list li .ww {
+        padding: 15px;
+    }
+
+    .stulist li .tt {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .stulist li .ww {
+        padding: 10px 10px 4px;
+    }
+
+    .stulist li .icon {
+        height: 72px;
+        line-height: 72px;
+    }
+
+    .study-three .right {
+        flex-wrap: wrap;
+    }
+
+    .study-three .right img {
+        width: 50%;
+    }
+
+    .study-plan {
+        padding-top: 0;
+    }
+
+    .zpinfo .logo img {
+        max-width: 120px;
+    }
+
+    .zpbox .zpwrap {
+        padding: 0 15px 20px;
+    }
+
+    .keyanlist {
+        margin: 0;
+    }
+
+    .keyanlist li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .foot-top .links {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foot-top .links a {
+        margin-right: 0;
+        width: 33.3%;
+        margin-left: 0;
+        padding: 0 0 0 10px;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    .other-logos {
+        font-size: 0;
+    }
+
+    .other-logos a {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .jiandu-info {
+        padding: 20px 15px;
+    }
+
+    .infolist .info {
+        padding-left: 28px;
+        font-size: 13px;
+    }
+
+    .infolist .info span:first-child {
+        flex-shrink: 0;
+    }
+
+    .subbanner .fw {
+        padding: 0;
+    }
+
+    .date-showbox {
+        left: 5px;
+        right: 5px;
+        width: auto;
+    }
+    .foot-top .codes{
+        margin-left: 0%;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+    .foot-bottom .fw{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .subbanner {
+        height: 210px;
+    }
+
+    .cyicon-list li .tt {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+
+    .cyicon-list2 li .tt2 {
+        font-size: 12px;
+    }
+
+    .guidata .gitem .n0 span {
+        font-size: 14px;
+    }
+
+    .foot-top .codes{
+        margin-left: 0%;
+    }
+    .foot-top .codes .citem.hide {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 360px) {}

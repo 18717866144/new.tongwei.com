@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+body {background:#F4F2F3;}
+.main {width:960px;margin:0px auto;text-align:center;background:#FFFFFF;padding-bottom:25px;border:1px solid #E1E1E1;  border-radius: 7px 7px 7px 7px;}
+.errorIMG {height:320px;background:url(notfound.gif) no-repeat center center;}
+.title1 {height:70px;line-height:70px;font-size:24px;}
+.title2 {font-size:13px;}
+.title3 {font-size:15px;margin-top:20px;}
