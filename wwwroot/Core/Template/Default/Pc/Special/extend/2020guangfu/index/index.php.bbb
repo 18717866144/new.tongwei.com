@@ -1,0 +1,131 @@
+<?php defined('HX_CMS') or exit;?>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>{-$special['title']-} - {-$Think.config.web_name-} - {-$Think.config.web_name_ext-}</title>
+<meta name="keywords" content="{-$special['title']-}">
+<meta name="description" content="{-$special['description']-}">
+<link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="/skins/2018lianghui/style.css">
+<link media="all" rel="stylesheet" href="http://at.alicdn.com/t/font_326879_xr9h6v4dxaud6lxr.css">
+<script type="text/javascript" src="/static/js/jquery.js"></script>  
+<script language="JavaScript" src="/static/js/jquery.SuperSlide.js"></script>     
+</head>
+<body>
+<div id="page">
+<div class="banner"></div>
+<div id="main">
+	<div class="nav">
+		<ul class="clearfix">
+			<li class="one"><a href="{-$special['url']-}">专题首页</a></li>
+			<li><a href="#news">图文直击</a></li>
+			<li><a href="#media">媒体聚焦</a></li>
+			<!--<li><a href="#video">视频报道</a></li>-->
+			<li style="float:right"><a href="http://www.tongwei.com" target="_blank">通威集团</a></li>
+		</ul>
+	</div>
+	
+	<div class="index-1 clearfix">
+		<div class="left" style="width:730px">
+			<div class="title-wrap"><h2>图文直击</h2></div>
+			<ul class="index-news">
+			<li class="top"><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="date">2018-03-02</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			</ul>
+		</div>
+
+		<div id="index-proposal" class="right" style="width:400px">
+			<div class="title-wrap"><h2>提案议案</h2></div>
+			<div class="index-proposal">
+			<ul>
+			<li>
+				<i>01</i>
+				<div class="info">
+				<a href="">支持绿色产业 减免光伏行业税费</a>
+				<p>推动我国经济发展、能源消费方式的根本转型，实现我国能源安全。</p>
+				</div>
+			</li>
+			
+			<li>
+				<i>02</i>
+				<div class="info">
+				<a href="">支持绿色产业 减免光伏行业税费</a>
+				<p>推动我国经济发展、能源消费方式的根本转型，实现我国能源安全。</p>
+				</div>
+			</li>
+			
+			<li>
+				<i>03</i>
+				<div class="info">
+				<a href="">支持绿色产业 减免光伏行业税费</a>
+				<p>推动我国经济发展、能源消费方式的根本转型，实现我国能源安全。</p>
+				</div>
+			</li>			
+			</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="index-2 pics-show clearfix">
+		<div class="pics-show-bd">
+			<ul class="clearfix">
+				<li><a href="">照片展示</a></li>
+				<li><a href="">照片展示</a></li>
+				<li><a href="">照片展示</a></li>
+				<li><a href="">照片展示</a></li>
+				<li><a href="">照片展示</a></li>
+			</ul>
+		</div>
+		<a class="prev-btn iconfont icon-left"></a>
+		<a class="next-btn iconfont icon-right"></a>
+	</div>
+	
+	<div class="index-3 media-news clearfix">
+		<div class="title-wrap"><h2>媒体聚焦</h2></div>
+		<div class="left media-pics">
+			<ul class="bd">
+				<li style="margin-left:0"><a href=""><img src><br>取消电价组成中基本电费与基金及附加</a></li>
+				<li><a href=""><img src><br>2取消电价组成中基本电费与基金及附加</a></a></li>
+				
+				<li style="margin-left:0"><a href=""><img src><br>3取消电价组成中基本电费与基金及附加</a></a></li><li><a href=""><img src><br>4取消电价组成中基本电费与基金及附加</a></a></li>
+			</ul>
+			<a class="prev-btn iconfont icon-left"></a>
+			<a class="next-btn iconfont icon-right"></a>
+		</div>
+		
+		<div class="right media-news-article">
+		<ul>
+			<li><span class="media">新华社</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">新浪网</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">中国新闻网</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">每日经济新闻</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">央视网</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">新华社</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">新华社</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">新华社</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">新华社</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+			<li><span class="media">新华社</span><a href="">刘汉元委员：取消电价组成中基本电费与基金及附加</a></li>
+		</ul>
+		</div>
+	</div>
+</div>
+	<div class="footer">
+	<a href="http://www.tongwei.com" target="_blank" class="footer-logo"><img src="/skins/2018lianghui/logo.png" /></a>
+	通威集团有限公司 @ 2017 TONGWEI 版权所有　　蜀ICP备05002048号　　总部地址：四川省成都市高新区天府大道中段588号通威国际中心　电话：028-85188888
+	</div>
+	<div style="display:none;"><script src="http://s20.cnzz.com/stat.php?id=3976932&web_id=3976932" language="JavaScript"></script></div>
+</div>
+
+<script>
+$(".pics-show").slide({mainCell:".pics-show-bd ul",titCell:"",effect:"left",autoPlay:true,delayTime:500,interTime:3000,autoPage:"",titOnClassName:'cur',prevCell:'.prev-btn',nextCell:'.next-btn',vis:3});
+
+$("#index-proposal").slide({mainCell:"ul",titCell:"",effect:"top",autoPlay:true,delayTime:500,interTime:3000,autoPage:"",vis:3});
+</script>
+</body>
+<html>
